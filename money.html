@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+	<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+</head>
+<body>
+<div id = "pubilum"> show me the money </div>
+<div id = "contenidoiluminacioncompleto">
+    <img src="http://cdn.zmescience.com/wp-content/uploads/2015/08/money-7.jpg" width="600" height="345">
+</div>
+<div id = "pubison"> show me the Oprah! </div>
+<div id = "contenidosonidocompleto">
+    <img src="http://hookedoneverything.com/wp-content/uploads/2015/10/611.jpg" width="600" height="345">
+</div>
+
+<div id = "pubifot"> show me the Oprah! </div>
+<div id = "contenidofotografiacompleto">
+    <img src="http://hookedoneverything.com/wp-content/uploads/2015/10/611.jpg" width="600" height="345">
+</div>
+
+</body>
+<script>
+$('#contenidoiluminacioncompleto').hide()
+$('#contenidosonidocompleto').hide()
+$('#contenidofotografiacompleto').hide()
+$('#publilum').click(function(){
+      $('#contenidoiluminacioncompleto').show()
+      $('#contenidosonidocompleto').hide()
+      $('#contenidofotografiacompleto').hide()
+})
+$('#pubison').click(function(){
+      $('#contenidosonidocompleto').show()
+      $('#contenidoiluminacioncompleto').hide()
+      $('#contenidofotografiacompleto').hide()
+})
+
+$('#pubifoto').click(function(){
+      $('#contenidofotografiacompleto').show()
+      $('#contenidoiluminacioncompleto').hide()
+      $('#contenidosonidocompleto').hide()
+})
+
+</script>
+</body>
+</html>
